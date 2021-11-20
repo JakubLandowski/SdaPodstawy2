@@ -8,8 +8,7 @@ public class Main {
                 System.out.println("True");
             else if (j < 5)
                 System.out.println("False");
-        }*/  // Table in for loop
-
+        }*/     // Table in for loop
         /*String[] cars = {"Audi","BMW","VW","Łada"};
         for (String car:cars){
             System.out.println(car);
@@ -22,5 +21,33 @@ public class Main {
             if (number>3 && number<5)
                 System.out.println(number);
         }*/     // for each loop
+        /*int day = 6;
+        switch (day){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            default:
+                System.out.println("Weekend");
+
+        }*/     // switch case
+
+        int i=0;
+        while (i<5){
+            System.out.println(i);
+            i++;
+        }
+
     }
 }
